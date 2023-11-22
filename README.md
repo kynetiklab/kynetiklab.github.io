@@ -6,15 +6,15 @@ This project involves the extraction, organization, and analysis of insurance da
 ### Objectives
 1. **Data Retrieval**: Download insurance data files from the provided website spanning from 2014 to 2023 and save them locally in a folder named "Data Insurance."
 2. **Data Cleaning and Reformatting**: After retrieval, clean the data by handling missing values and standardizing the format. Organize the data into distinct tables (e.g., 'Table L1', 'Table L1(a)', ..., 'Table L4') with each table undergoing specific cleaning and restructuring processes.
-3. **Data Analysis**: While not explicitly implemented in the current code, create a placeholder for performing comprehensive data analysis on the cleaned datasets, ensuring readiness for future development.
-
+3. **Data Analysis And Visualizations**: Comprehensive data analysis is done and Matplotlib is utilized for data visualization, creating informative and visually appealing plots and charts to represent key insights derived including trends, patterns, and insights within the insurance datasets.
 ### Methodologies, Tools, and Libraries Used
-This project leverages Python as the primary programming language and relies on several key libraries and tools:
-- **Pandas**: Essential for data handling, manipulation, and structuring the retrieved data into tabular formats.
-- **Requests**: Utilized for making HTTP requests, facilitating the download of insurance data files from the specified website.
-- **Openpyxl**: Instrumental in writing and appending data into Excel files, allowing for distinct sheets within these files.
-- **os**: Employed for file handling, directory creation, and other essential file operations necessary for organizing and processing data.
+This project leverages Python as the primary programming language and relies on several key libraries and tools, including:
 
+Pandas: Essential for data handling, manipulation, and structuring the retrieved data into tabular formats.
+Requests: Utilized for making HTTP requests, facilitating the download of insurance data files from the specified website.
+Openpyxl: Instrumental in writing and appending data into Excel files, allowing for distinct sheets within these files.
+Matplotlib: Utilized for data visualization, creating informative and visually appealing plots and charts to represent key insights derived from the insurance datasets.
+os: Employed for file handling, directory creation, and other essential file operations necessary for organizing and processing data.
 ### Data Processing Workflow
 The script follows a systematic workflow:
 1. **Downloading Data**: Iterates through different years and quarters to retrieve insurance data files in Excel format from the provided URL and stores them in a local directory.
